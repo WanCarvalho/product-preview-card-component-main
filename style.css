@@ -48,8 +48,8 @@
         justify-content: space-around;
         background-color: hsl(0, 0%, 100%);
         border-radius: 0 10px 10px 0;
-        width: 25%;
-        height: 50%;
+        width: 40%;
+        height: 55%;
     }
 
     .category {
@@ -96,7 +96,7 @@
 
     .img-desktop {
         width: 25%;
-        height: 50%;
+        height: 55%;
         border-radius: 10px 0 0 10px;
     }
 
