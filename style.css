@@ -48,7 +48,7 @@
         justify-content: space-around;
         background-color: hsl(0, 0%, 100%);
         border-radius: 0 10px 10px 0;
-        width: 40%;
+        width: 25%;
         height: 55%;
     }
 
@@ -95,7 +95,7 @@
     }
 
     .img-desktop {
-        width: 40%;
+        width: 25%;
         height: 55%;
         border-radius: 10px 0 0 10px;
     }
