@@ -127,6 +127,7 @@
         font-weight: 600;
         padding: 1rem;
         width: 95%;
+        margin-bottom: 1rem;
     }
 
     .button-cart button:hover {
