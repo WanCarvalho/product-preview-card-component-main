@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
 
 /*----------Desktop-----------*/
-@media(min-width: 750px) {
-
     body {
         display: flex;
         flex-direction: column;
@@ -20,8 +18,7 @@
         align-items: center;
         justify-content: center;
         margin: 2rem auto;
-        padding: 0;
-        width: 100vw;
+        width: 1400px;
         height: 100vh;
         background-color: hsl(30, 38%, 92%);
     }
@@ -146,13 +143,35 @@
         font-size: 11px;
         text-align: center;
         margin-top: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     .attribution a {
         color: hsl(228, 45%, 44%);
     }
-}
 
+/*----------Tablet or Mediu Screen-----------*/
+@media(max-width: 1400px) and (min-width: 750px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: hsl(30, 38%, 92%);
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        width: 1300px;
+        height: 100vh;
+        margin: 2rem auto;
+        background-color: hsl(30, 38%, 92%);
+    }
+}
 
 /*----------Mobile-----------*/
 @media(min-width: 100px) and (max-width: 750px) {
@@ -171,6 +190,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100vw;
+        height: 100vh;
         margin: 2rem auto;
         padding: 0;
         background-color: hsl(30, 38%, 92%);
@@ -243,13 +264,14 @@
         opacity: 70%;
     }
 
-    .img-mobile {
-        width: 92%;
-        border-radius: 10px 10px 0 0;
-    }
-
     .img-desktop {
         display: none;
+    }
+
+    .img-mobile {
+        display: unset;
+        width: 92%;
+        border-radius: 10px 10px 0 0;
     }
 
     .img-cart {
@@ -289,6 +311,7 @@
         font-size: 11px;
         text-align: center;
         margin-top: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     .attribution a {
